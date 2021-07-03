@@ -1,0 +1,31 @@
+/*Combinators
+element selector: p, div, body...
+id selector: #
+class selector: .
+universel selector : *
+grouping selector: p, h1, h2 {}
+element.class selector: p.hello{}
+nested selector: div p span{} 
+*/
+/*descendant selector*/
+/* div p{
+    background-color: royalblue;
+    color: white;
+}
+
+/* child selector*/
+/*div>p{
+    background-color: yellowgreen;
+} */
+
+/*adj sibling selector*/
+
+/* div + p{
+    background-color: tomato;
+} */
+
+/*general spling selector*/
+
+div~p{
+    background-color: turquoise;
+}
